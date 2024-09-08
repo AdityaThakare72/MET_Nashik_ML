@@ -1,0 +1,29 @@
+antecedents,consequents,support,confidence
+frozenset({'apple'}),frozenset({'beer'}),0.375,0.75
+frozenset({'beer'}),frozenset({'apple'}),0.375,0.5
+frozenset({'rice'}),frozenset({'apple'}),0.25,0.5
+frozenset({'apple'}),frozenset({'rice'}),0.25,0.5
+frozenset({'chicken'}),frozenset({'beer'}),0.25,1.0
+frozenset({'beer'}),frozenset({'milk'}),0.375,0.5
+frozenset({'milk'}),frozenset({'beer'}),0.375,0.75
+frozenset({'rice'}),frozenset({'beer'}),0.5,1.0
+frozenset({'beer'}),frozenset({'rice'}),0.5,0.6666666666666666
+frozenset({'rice'}),frozenset({'chicken'}),0.25,0.5
+frozenset({'chicken'}),frozenset({'rice'}),0.25,1.0
+frozenset({'rice'}),frozenset({'milk'}),0.25,0.5
+frozenset({'milk'}),frozenset({'rice'}),0.25,0.5
+"frozenset({'apple', 'rice'})",frozenset({'beer'}),0.25,1.0
+"frozenset({'rice', 'beer'})",frozenset({'apple'}),0.25,0.5
+"frozenset({'apple', 'beer'})",frozenset({'rice'}),0.25,0.6666666666666666
+frozenset({'rice'}),"frozenset({'apple', 'beer'})",0.25,0.5
+frozenset({'apple'}),"frozenset({'rice', 'beer'})",0.25,0.5
+"frozenset({'rice', 'beer'})",frozenset({'chicken'}),0.25,0.5
+"frozenset({'rice', 'chicken'})",frozenset({'beer'}),0.25,1.0
+"frozenset({'beer', 'chicken'})",frozenset({'rice'}),0.25,1.0
+frozenset({'rice'}),"frozenset({'beer', 'chicken'})",0.25,0.5
+frozenset({'chicken'}),"frozenset({'rice', 'beer'})",0.25,1.0
+"frozenset({'rice', 'beer'})",frozenset({'milk'}),0.25,0.5
+"frozenset({'rice', 'milk'})",frozenset({'beer'}),0.25,1.0
+"frozenset({'beer', 'milk'})",frozenset({'rice'}),0.25,0.6666666666666666
+frozenset({'rice'}),"frozenset({'beer', 'milk'})",0.25,0.5
+frozenset({'milk'}),"frozenset({'rice', 'beer'})",0.25,0.5
